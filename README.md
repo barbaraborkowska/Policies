@@ -1,4 +1,4 @@
-# Rekrutacja
+# Policies
 
 An end-to-end data engineering project built with Databricks, PySpark, Spark Structured Streaming, and Delta Lake.
 
