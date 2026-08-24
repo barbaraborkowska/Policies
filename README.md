@@ -82,6 +82,16 @@ Environment-specific paths and table names are defined in the notebooks. They ar
 
 Streaming checkpoint locations are kept separate from the Git repository.
 
+## Testing
+
+The project includes basic tests for the Silver and Gold layers.
+
+* **Silver tests** verify that valid records pass validation and invalid records are correctly identified with the expected validation errors.
+* **Gold tests** verify the fraud aggregation logic, including claim counts, fraudulent claim counts, average and total claim amounts, and fraud rate calculations.
+
+The tests use small, controlled test datasets and assertions to verify the expected results.
+
+
 ##Future Improvements
 
 Possible future improvements include:
