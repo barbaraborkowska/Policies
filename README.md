@@ -79,9 +79,9 @@ The Gold layer contains business-oriented datasets designed for analytical use.
 
 The project creates three analytical datasets:
 
-* Fraud analysis – aggregates claims by incident type and incident severity and provides claim counts, fraudulent claim counts, claim amounts, and fraud rates.
-* [Gold table 2] – [brief description of the business purpose].
-* [Gold table 3] – [brief description of the business purpose].
+* **Daily analysis** – aggregates claims by incident date, including claim volumes, claim amounts, fraudulent claims, fraud rate, and average customer age.
+* **State analysis** – aggregates claims by policy state, including total and average claim amounts, fraudulent claims, and fraud rate.
+* **Fraud analysis** – aggregates claims by incident type and incident severity and provides claim counts, fraudulent claim counts, claim amounts, and fraud rates.
 
 The Gold datasets are derived only from validated Silver records.
 
