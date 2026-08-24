@@ -1,3 +1,23 @@
+
+__pycache__/
+.pytest_cache/
+
+# Databricks / Spark
+.databricks/
+checkpoints/
+_checkpoints/
+
+# Generated data
+*.parquet
+*.delta
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
